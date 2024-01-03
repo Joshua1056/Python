@@ -50,4 +50,4 @@ elif player == computer:
 else:
     print("🐍 Python wins!")
 print("")
-sys.exit("😊 Thanks for playing this game made by Joshua1056")
+input("Press ENTER To exit. 😊 Thanks for playing this game made by Joshua1056")

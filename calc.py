@@ -66,4 +66,5 @@ elif inputoperator == '**':
 elif inputoperator == '//':
     print(inputfirstint // inputlastint)
 print("")
-sys.exit("😊 Thanks for using my calculator made by Joshua1056")
+print('😊 Thanks for using my calculator made by Joshua1056')
+input('Press ENTER to exit.')
