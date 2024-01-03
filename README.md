@@ -12,5 +12,5 @@ Feel free to share my content to others!
 
 # Current Apps
 --------------------------------------
-Calc.py | Calculator program
+Calc.py | Calculator program \n
 rps.py  | Rock paper scissors
