@@ -21,7 +21,6 @@ print(line02)
 print(line01)
 print('') # ends with blank
 
-SystemError("TEST")
 playerchoice = input("Enter ...\n1 for Rock, \n2 for paper, or \n3 for scissors:\n\n")
 
 player = int(playerchoice)
