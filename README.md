@@ -14,5 +14,3 @@ Feel free to share my content to others!
 --------------------------------------
 Calc.py | Calculator program
 rps.py  | Rock paper scissors
-> [!WARNING]
-> Please provide credit when sharing my content.
