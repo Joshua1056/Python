@@ -21,7 +21,10 @@ print(line02)
 print(line01)
 print('') # ends with blank
 
-playerchoice = input("Enter ...\n1 for Rock, \n2 for paper, or \n3 for scissors:\n\n")
+playerchoice = input("Enter ...\n1 for Rock, \n2 for paper, or \n3 for scissors, exit to abort \n")
+if playerchoice == 'exit':
+    sys.exit("Aborted. Made by Joshua1056.")
+    
 
 player = int(playerchoice)
 

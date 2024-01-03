@@ -1,9 +1,22 @@
 import sys
-
+abortmessage = "Aborted. Made by Joshua1056"
+line01 = "*************************" # header / footer
+line02 = "*                       *" # re-use
+line03 = "*    Welcome to Calc    *"
+line04 = "*                       *"
+  
+# starts with blank
+print('')
+print(line01)
+print(line02)
+print(line03)
+print(line02)
+print(line01)
+print('') # ends with blank
 guideinput = input("Would you like to see the calculator guide? y/n\n")
 # exit for guide input
 if guideinput == 'exit':
-    sys.exit("Aborted.")
+    sys.exit(abortmessage)
 #guide
 guide = '''
 + for addition,
@@ -21,17 +34,17 @@ if guideinput == 'y':
 inputfirst = input("Enter first calculation number ...\n")
 #exit for inputfirst
 if inputfirst == 'exit':
-    sys.exit("Aborted.")
+    sys.exit(abortmessage)
     
 inputoperator = input("Enter operator for calculation ...\n")
 #exit for inputoperator
 if inputoperator == 'exit':
-    sys.exit("Aborted.")
+    sys.exit(abortmessage)
     
 inputlast = input("Enter last calculation number ...\n")
 #exit for inputlast
 if inputlast == "exit":
-    sys.exit("Aborted.")
+    sys.exit(abortmessage)
     
 inputfirstint = int(inputfirst)
 inputlastint = int(inputlast)
@@ -57,3 +70,5 @@ if inputoperator == '**':
     
 if inputoperator == '//':
     print(inputfirstint // inputlastint)
+print("")
+sys.exit("😊 Thanks for using my calculator made by Joshua1056")
