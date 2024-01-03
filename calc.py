@@ -1,4 +1,5 @@
 import sys
+
 abortmessage = "Aborted. Made by Joshua1056"
 line01 = "*************************" # header / footer
 line02 = "*                       *" # re-use
@@ -52,23 +53,17 @@ print("")
 print("Your total is...")
 if inputoperator == '+': # operator checking & calculations
     print(inputfirstint + inputlastint)
-
-if inputoperator == '-':
-    print(inputfirstint - inputlastint)
-    
-if inputoperator == '*':
-    print(inputfirstint * inputlastint)
-    
-if inputoperator == '/':
-    print(inputfirstint / inputlastint)
-    
-if inputoperator == '%':
+elif inputoperator == '-':
+    print(inputfirstint - inputlastint) 
+elif inputoperator == '*':
+    print(inputfirstint * inputlastint) 
+elif inputoperator == '/':
+    print(inputfirstint / inputlastint) 
+elif inputoperator == '%':
     print(inputfirstint % inputlastint)
-    
-if inputoperator == '**':
+elif inputoperator == '**':
     print(inputfirstint ** inputlastint)
-    
-if inputoperator == '//':
+elif inputoperator == '//':
     print(inputfirstint // inputlastint)
 print("")
 sys.exit("😊 Thanks for using my calculator made by Joshua1056")
