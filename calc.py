@@ -1,6 +1,9 @@
 import sys
 
 guideinput = input("Would you like to see the calculator guide? y/n\n")
+# exit for guide input
+if guideinput == 'exit':
+    sys.exit("Aborted.")
 #guide
 guide = '''
 + for addition,
