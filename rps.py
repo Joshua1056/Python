@@ -1,6 +1,7 @@
 import sys
 import random
 from enum import Enum
+from colorist import red
 
 class RPS(Enum):
     ROCK = 1
@@ -29,7 +30,9 @@ if playerchoice == 'exit':
 player = int(playerchoice)
 
 if player < 1 or player > 3:
-    sys.exit("You must enter 1, 2, or 3.")
+    red("Number has to be 1, 2 or 3")
+    input("Press ENTER To exit")
+    sys.exit("")
     
 computerchoice = random.choice("123")
 
