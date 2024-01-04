@@ -14,3 +14,6 @@ Feel free to share my content to others!
 --------------------------------------
 ### Calc.py | Calculator program <br>
 ### rps.py  | Rock paper scissors
+### to-do-app.py | To-do app (DOSENT SAVE)
+### Guess-num.py | Guess the randomly generated number!
+
