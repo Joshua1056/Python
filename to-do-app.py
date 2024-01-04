@@ -10,7 +10,6 @@ def add_task(tasks):
     add_task_name = input("Please insert task name ...\n")
     tasks.append(add_task_name)
 
-
 # starts with blank
 print('')
 print(line01)
