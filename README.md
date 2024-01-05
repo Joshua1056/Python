@@ -13,7 +13,8 @@ Feel free to share my content to others!
 # Current Apps
 --------------------------------------
 ### Calc.py | Calculator program <br>
-### rps.py  | Rock paper scissors
-### to-do-app.py | To-do app (DOSENT SAVE)
-### Guess-num.py | Guess the randomly generated number!
+### rps.py  | Rock paper scissors<br>
+### to-do-app.py | To-do app (DOSENT SAVE)<br>
+### Guess-num.py | Guess the randomly generated number!<br>
+### Password-gen.py | Randomly generates secure passwords<br>
 
